@@ -1,0 +1,10 @@
+import kotlin.math.PI
+
+// Write your code here
+fun circleArea (n : Int):Double {
+  return (n * n) * PI
+}
+
+fun main() {
+    println(circleArea(2))
+}
